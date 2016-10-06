@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F616F61D61627100876B58 /* Nebula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F616EC1D61627100876B58 /* Nebula.framework */; };
+		02F616FB1D61627100876B58 /* NebulaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F616FA1D61627100876B58 /* NebulaTests.swift */; };
+		02F616FD1D61627100876B58 /* Nebula.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F616EF1D61627100876B58 /* Nebula.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02F617181D61629000876B58 /* Nebula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6170F1D61629000876B58 /* Nebula.swift */; };
+		02F617191D61629000876B58 /* NebulaOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F617101D61629000876B58 /* NebulaOperation.swift */; };
+		02F6171A1D61629000876B58 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F617111D61629000876B58 /* DataProvider.swift */; };
+		02F6171B1D61629000876B58 /* HTTPRequestHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F617121D61629000876B58 /* HTTPRequestHeader.swift */; };
+		02F6171C1D61629000876B58 /* HTTPRequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F617131D61629000876B58 /* HTTPRequestMethod.swift */; };
+		02F6171D1D61629000876B58 /* NetworkObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F617141D61629000876B58 /* NetworkObserver.swift */; };
+		02F6171E1D61629000876B58 /* ParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F617151D61629000876B58 /* ParseOperation.swift */; };
+		02F6171F1D61629000876B58 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F617161D61629000876B58 /* Types.swift */; };
+		02F617201D61629000876B58 /* URLRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F617171D61629000876B58 /* URLRequestProvider.swift */; };
+		02F617281D617D7F00876B58 /* NetworkOperationSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F617271D617D7F00876B58 /* NetworkOperationSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02F616F71D61627100876B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F616E31D61627100876B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F616EB1D61627100876B58;
+			remoteInfo = Nebula;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F616EC1D61627100876B58 /* Nebula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nebula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F616EF1D61627100876B58 /* Nebula.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nebula.h; sourceTree = "<group>"; };
+		02F616F01D61627100876B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F616F51D61627100876B58 /* NebulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NebulaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F616FA1D61627100876B58 /* NebulaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NebulaTests.swift; sourceTree = "<group>"; };
+		02F616FC1D61627100876B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F6170F1D61629000876B58 /* Nebula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nebula.swift; sourceTree = "<group>"; };
+		02F617101D61629000876B58 /* NebulaOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NebulaOperation.swift; sourceTree = "<group>"; };
+		02F617111D61629000876B58 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		02F617121D61629000876B58 /* HTTPRequestHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestHeader.swift; sourceTree = "<group>"; };
+		02F617131D61629000876B58 /* HTTPRequestMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestMethod.swift; sourceTree = "<group>"; };
+		02F617141D61629000876B58 /* NetworkObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkObserver.swift; sourceTree = "<group>"; };
+		02F617151D61629000876B58 /* ParseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseOperation.swift; sourceTree = "<group>"; };
+		02F617161D61629000876B58 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		02F617171D61629000876B58 /* URLRequestProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestProvider.swift; sourceTree = "<group>"; };
+		02F617271D617D7F00876B58 /* NetworkOperationSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperationSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F616E81D61627100876B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F616F21D61627100876B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F616F61D61627100876B58 /* Nebula.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029CE5EA1DA606CD005D1521 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				02F617111D61629000876B58 /* DataProvider.swift */,
+				02F617121D61629000876B58 /* HTTPRequestHeader.swift */,
+				02F617131D61629000876B58 /* HTTPRequestMethod.swift */,
+				02F617141D61629000876B58 /* NetworkObserver.swift */,
+				02F617161D61629000876B58 /* Types.swift */,
+				02F617171D61629000876B58 /* URLRequestProvider.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		02F616E21D61627100876B58 = {
+			isa = PBXGroup;
+			children = (
+				02F616EE1D61627100876B58 /* Nebula */,
+				02F616F91D61627100876B58 /* NebulaTests */,
+				02F616ED1D61627100876B58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02F616ED1D61627100876B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F616EC1D61627100876B58 /* Nebula.framework */,
+				02F616F51D61627100876B58 /* NebulaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02F616EE1D61627100876B58 /* Nebula */ = {
+			isa = PBXGroup;
+			children = (
+				02F616EF1D61627100876B58 /* Nebula.h */,
+				02F616F01D61627100876B58 /* Info.plist */,
+				02F6170F1D61629000876B58 /* Nebula.swift */,
+				02F617101D61629000876B58 /* NebulaOperation.swift */,
+				02F617271D617D7F00876B58 /* NetworkOperationSource.swift */,
+				02F617151D61629000876B58 /* ParseOperation.swift */,
+				029CE5EA1DA606CD005D1521 /* Utility */,
+			);
+			path = Nebula;
+			sourceTree = "<group>";
+		};
+		02F616F91D61627100876B58 /* NebulaTests */ = {
+			isa = PBXGroup;
+			children = (
+				02F616FA1D61627100876B58 /* NebulaTests.swift */,
+				02F616FC1D61627100876B58 /* Info.plist */,
+			);
+			path = NebulaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02F616E91D61627100876B58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F616FD1D61627100876B58 /* Nebula.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02F616EB1D61627100876B58 /* Nebula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F617001D61627100876B58 /* Build configuration list for PBXNativeTarget "Nebula" */;
+			buildPhases = (
+				02F616E71D61627100876B58 /* Sources */,
+				02F616E81D61627100876B58 /* Frameworks */,
+				02F616E91D61627100876B58 /* Headers */,
+				02F616EA1D61627100876B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nebula;
+			productName = Nebula;
+			productReference = 02F616EC1D61627100876B58 /* Nebula.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		02F616F41D61627100876B58 /* NebulaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F617031D61627100876B58 /* Build configuration list for PBXNativeTarget "NebulaTests" */;
+			buildPhases = (
+				02F616F11D61627100876B58 /* Sources */,
+				02F616F21D61627100876B58 /* Frameworks */,
+				02F616F31D61627100876B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F616F81D61627100876B58 /* PBXTargetDependency */,
+			);
+			name = NebulaTests;
+			productName = NebulaTests;
+			productReference = 02F616F51D61627100876B58 /* NebulaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02F616E31D61627100876B58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Vicino;
+				TargetAttributes = {
+					02F616EB1D61627100876B58 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2L9Z338Q93;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					02F616F41D61627100876B58 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2L9Z338Q93;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 02F616E61D61627100876B58 /* Build configuration list for PBXProject "Nebula" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02F616E21D61627100876B58;
+			productRefGroup = 02F616ED1D61627100876B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02F616EB1D61627100876B58 /* Nebula */,
+				02F616F41D61627100876B58 /* NebulaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02F616EA1D61627100876B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F616F31D61627100876B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02F616E71D61627100876B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F6171B1D61629000876B58 /* HTTPRequestHeader.swift in Sources */,
+				02F617201D61629000876B58 /* URLRequestProvider.swift in Sources */,
+				02F6171A1D61629000876B58 /* DataProvider.swift in Sources */,
+				02F617281D617D7F00876B58 /* NetworkOperationSource.swift in Sources */,
+				02F6171E1D61629000876B58 /* ParseOperation.swift in Sources */,
+				02F6171F1D61629000876B58 /* Types.swift in Sources */,
+				02F617191D61629000876B58 /* NebulaOperation.swift in Sources */,
+				02F617181D61629000876B58 /* Nebula.swift in Sources */,
+				02F6171D1D61629000876B58 /* NetworkObserver.swift in Sources */,
+				02F6171C1D61629000876B58 /* HTTPRequestMethod.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F616F11D61627100876B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F616FB1D61627100876B58 /* NebulaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02F616F81D61627100876B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F616EB1D61627100876B58 /* Nebula */;
+			targetProxy = 02F616F71D61627100876B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F616FE1D61627100876B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		02F616FF1D61627100876B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		02F617011D61627100876B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2L9Z338Q93;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Nebula/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.vicino.Nebula;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		02F617021D61627100876B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2L9Z338Q93;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Nebula/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.vicino.Nebula;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		02F617041D61627100876B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2L9Z338Q93;
+				INFOPLIST_FILE = NebulaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.vicino.NebulaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		02F617051D61627100876B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2L9Z338Q93;
+				INFOPLIST_FILE = NebulaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.vicino.NebulaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F616E61D61627100876B58 /* Build configuration list for PBXProject "Nebula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F616FE1D61627100876B58 /* Debug */,
+				02F616FF1D61627100876B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F617001D61627100876B58 /* Build configuration list for PBXNativeTarget "Nebula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F617011D61627100876B58 /* Debug */,
+				02F617021D61627100876B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F617031D61627100876B58 /* Build configuration list for PBXNativeTarget "NebulaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F617041D61627100876B58 /* Debug */,
+				02F617051D61627100876B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02F616E31D61627100876B58 /* Project object */;
+}
