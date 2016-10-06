@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		02990BDE1DA612C8005C4E3B /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02990BDC1DA612C8005C4E3B /* DataModel.xcdatamodeld */; };
+		02990BF41DA61490005C4E3B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02990BF31DA61490005C4E3B /* DataController.swift */; };
+		02990BF61DA6181F005C4E3B /* SaveEntitiesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02990BF51DA6181F005C4E3B /* SaveEntitiesOperation.swift */; };
 		029CE5F81DA60F58005D1521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CE5F71DA60F58005D1521 /* AppDelegate.swift */; };
 		029CE5FA1DA60F58005D1521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CE5F91DA60F58005D1521 /* ViewController.swift */; };
 		029CE5FD1DA60F58005D1521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029CE5FB1DA60F58005D1521 /* Main.storyboard */; };
@@ -52,6 +54,8 @@
 
 /* Begin PBXFileReference section */
 		02990BDD1DA612C8005C4E3B /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		02990BF31DA61490005C4E3B /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		02990BF51DA6181F005C4E3B /* SaveEntitiesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveEntitiesOperation.swift; sourceTree = "<group>"; };
 		029CE5F41DA60F57005D1521 /* NebulaSampleApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NebulaSampleApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029CE5F71DA60F58005D1521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		029CE5F91DA60F58005D1521 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,13 +122,15 @@
 		029CE5F61DA60F57005D1521 /* NebulaSampleApplication */ = {
 			isa = PBXGroup;
 			children = (
-				029CE5F71DA60F58005D1521 /* AppDelegate.swift */,
-				029CE5F91DA60F58005D1521 /* ViewController.swift */,
-				029CE5FB1DA60F58005D1521 /* Main.storyboard */,
-				029CE5FE1DA60F58005D1521 /* Assets.xcassets */,
-				029CE6001DA60F58005D1521 /* LaunchScreen.storyboard */,
 				029CE6031DA60F58005D1521 /* Info.plist */,
+				029CE5F71DA60F58005D1521 /* AppDelegate.swift */,
+				02990BF31DA61490005C4E3B /* DataController.swift */,
+				02990BF51DA6181F005C4E3B /* SaveEntitiesOperation.swift */,
+				029CE5F91DA60F58005D1521 /* ViewController.swift */,
+				029CE5FE1DA60F58005D1521 /* Assets.xcassets */,
 				02990BDC1DA612C8005C4E3B /* DataModel.xcdatamodeld */,
+				029CE6001DA60F58005D1521 /* LaunchScreen.storyboard */,
+				029CE5FB1DA60F58005D1521 /* Main.storyboard */,
 			);
 			path = NebulaSampleApplication;
 			sourceTree = "<group>";
@@ -294,6 +300,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				02990BDE1DA612C8005C4E3B /* DataModel.xcdatamodeld in Sources */,
+				02990BF41DA61490005C4E3B /* DataController.swift in Sources */,
+				02990BF61DA6181F005C4E3B /* SaveEntitiesOperation.swift in Sources */,
 				029CE5FA1DA60F58005D1521 /* ViewController.swift in Sources */,
 				029CE5F81DA60F58005D1521 /* AppDelegate.swift in Sources */,
 			);

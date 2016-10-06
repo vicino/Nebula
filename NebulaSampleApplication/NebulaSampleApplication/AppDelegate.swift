@@ -12,10 +12,21 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var dataController: DataController!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        dataController = DataController(name: "DataModel")
+        dataController.viewContext.automaticallyMergesChangesFromParent = true
+        dataController.loadPersistentStores { (storeDescription, error) in
+            guard error == nil else {
+                fatalError("Could not load persistent store: \(error?.localizedDescription)")
+            }
+        }
+        
+        let root = window?.rootViewController as! UINavigationController
+        let vc = root.viewControllers.first as! ViewController
+        vc.dataController = dataController
+        
         return true
     }
 
