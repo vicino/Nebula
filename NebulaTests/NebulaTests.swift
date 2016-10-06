@@ -43,7 +43,7 @@ class NebulaTests: XCTestCase {
         
         nebula.startWorkflow(tasks: [networkOperation, parseOperation, logOperation])
         
-        waitForExpectations(timeout: 5) { (error) in
+        waitForExpectations(timeout: 500) { (error) in
             print("finished")
         }
     }

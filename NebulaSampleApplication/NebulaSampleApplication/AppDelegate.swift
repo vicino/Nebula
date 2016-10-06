@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         let root = window?.rootViewController as! UINavigationController
-        let vc = root.viewControllers.first as! ViewController
+        let vc = root.viewControllers.first as! RootTableViewController
         vc.dataController = dataController
         
         return true
