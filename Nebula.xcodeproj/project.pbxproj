@@ -23,6 +23,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		029CE62B1DA60F59005D1521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 029CE5F41DA60F57005D1521;
+			remoteInfo = NebulaSampleApplication;
+		};
+		029CE62D1DA60F59005D1521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 029CE6081DA60F58005D1521;
+			remoteInfo = NebulaSampleApplicationTests;
+		};
+		029CE62F1DA60F59005D1521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 029CE6131DA60F58005D1521;
+			remoteInfo = NebulaSampleApplicationUITests;
+		};
 		02F616F71D61627100876B58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 02F616E31D61627100876B58 /* Project object */;
@@ -33,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NebulaSampleApplication.xcodeproj; path = "Nebula Sample Application/NebulaSampleApplication/NebulaSampleApplication.xcodeproj"; sourceTree = "<group>"; };
 		02F616EC1D61627100876B58 /* Nebula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nebula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F616EF1D61627100876B58 /* Nebula.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nebula.h; sourceTree = "<group>"; };
 		02F616F01D61627100876B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,9 +105,20 @@
 			name = Utility;
 			sourceTree = "<group>";
 		};
+		029CE6261DA60F58005D1521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				029CE62C1DA60F59005D1521 /* NebulaSampleApplication.app */,
+				029CE62E1DA60F59005D1521 /* NebulaSampleApplicationTests.xctest */,
+				029CE6301DA60F59005D1521 /* NebulaSampleApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		02F616E21D61627100876B58 = {
 			isa = PBXGroup;
 			children = (
+				029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */,
 				02F616EE1D61627100876B58 /* Nebula */,
 				02F616F91D61627100876B58 /* NebulaTests */,
 				02F616ED1D61627100876B58 /* Products */,
@@ -207,6 +240,12 @@
 			mainGroup = 02F616E21D61627100876B58;
 			productRefGroup = 02F616ED1D61627100876B58 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 029CE6261DA60F58005D1521 /* Products */;
+					ProjectRef = 029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				02F616EB1D61627100876B58 /* Nebula */,
@@ -214,6 +253,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		029CE62C1DA60F59005D1521 /* NebulaSampleApplication.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NebulaSampleApplication.app;
+			remoteRef = 029CE62B1DA60F59005D1521 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		029CE62E1DA60F59005D1521 /* NebulaSampleApplicationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NebulaSampleApplicationTests.xctest;
+			remoteRef = 029CE62D1DA60F59005D1521 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		029CE6301DA60F59005D1521 /* NebulaSampleApplicationUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NebulaSampleApplicationUITests.xctest;
+			remoteRef = 029CE62F1DA60F59005D1521 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		02F616EA1D61627100876B58 /* Resources */ = {
