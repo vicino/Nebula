@@ -15,10 +15,10 @@ public class NetworkOperationSource: NebulaOperation {
     public init(urlRequest: URLRequest) {
         self.request = urlRequest
         super.init()
+        isAsync = true
     }
     
     override public func main() {
-        isAsync = true
         dataProvider = NetworkDataProvider(request: request)
         dataProvider.delegate = self
         dataProvider.getData()

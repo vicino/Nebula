@@ -9,59 +9,18 @@
 import Foundation
 import CoreData
 
-public class ParseOperation<T>: Operation {
+public class ParseOperation: NebulaOperation {
     
-    private var _finished = false
-    final override public var isFinished: Bool {
-        get {
-            return _finished
-        }
-        set {
-            willChangeValue(forKey: "isFinished")
-            _finished = newValue
-            didChangeValue(forKey: "isFinished")
-        }
-    }
-    
-    private var _executing = false
-    final override public var isExecuting: Bool {
-        get {
-            return _executing
-        }
-        set {
-            willChangeValue(forKey: "isExecuting")
-            _executing = newValue
-            didChangeValue(forKey: "isExecuting")
-        }
-    }
-    
-    final public var data: Data?
-    final public var error: NSError?
-    final public var httpResponse: HTTPURLResponse?
-    final public var json: T!
-    
-    final override public func start() {
-        defer {
-            isExecuting = false
-            isFinished = true
-        }
-        
-        if let _ = error {
-            
-        }
-        
-        guard !isCancelled, let data = data else {
+    public override func main() {
+        guard let input = input as? Data else {
             return
         }
         
         do {
-            let parsedData = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.init(rawValue: 0))
-            json = parsedData as! T
+            let parsedData = try JSONSerialization.jsonObject(with: input, options: JSONSerialization.ReadingOptions.init(rawValue: 0))
+            output = parsedData
         } catch {
-            
+            // do something with an error
         }
-        
-        isExecuting = true
-        main()
     }
 }
