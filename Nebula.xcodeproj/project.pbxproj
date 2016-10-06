@@ -23,23 +23,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		029CE62B1DA60F59005D1521 /* PBXContainerItemProxy */ = {
+		02990BED1DA613C6005C4E3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */;
+			containerPortal = 02990BE71DA613C6005C4E3B /* NebulaSampleApplication.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 029CE5F41DA60F57005D1521;
 			remoteInfo = NebulaSampleApplication;
 		};
-		029CE62D1DA60F59005D1521 /* PBXContainerItemProxy */ = {
+		02990BEF1DA613C6005C4E3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */;
+			containerPortal = 02990BE71DA613C6005C4E3B /* NebulaSampleApplication.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 029CE6081DA60F58005D1521;
 			remoteInfo = NebulaSampleApplicationTests;
 		};
-		029CE62F1DA60F59005D1521 /* PBXContainerItemProxy */ = {
+		02990BF11DA613C6005C4E3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */;
+			containerPortal = 02990BE71DA613C6005C4E3B /* NebulaSampleApplication.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 029CE6131DA60F58005D1521;
 			remoteInfo = NebulaSampleApplicationUITests;
@@ -54,7 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NebulaSampleApplication.xcodeproj; path = "Nebula Sample Application/NebulaSampleApplication/NebulaSampleApplication.xcodeproj"; sourceTree = "<group>"; };
+		02990BE71DA613C6005C4E3B /* NebulaSampleApplication.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NebulaSampleApplication.xcodeproj; path = NebulaSampleApplication/NebulaSampleApplication.xcodeproj; sourceTree = "<group>"; };
 		02F616EC1D61627100876B58 /* Nebula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nebula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F616EF1D61627100876B58 /* Nebula.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nebula.h; sourceTree = "<group>"; };
 		02F616F01D61627100876B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02990BE81DA613C6005C4E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02990BEE1DA613C6005C4E3B /* NebulaSampleApplication.app */,
+				02990BF01DA613C6005C4E3B /* NebulaSampleApplicationTests.xctest */,
+				02990BF21DA613C6005C4E3B /* NebulaSampleApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		029CE5EA1DA606CD005D1521 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,20 +115,10 @@
 			name = Utility;
 			sourceTree = "<group>";
 		};
-		029CE6261DA60F58005D1521 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				029CE62C1DA60F59005D1521 /* NebulaSampleApplication.app */,
-				029CE62E1DA60F59005D1521 /* NebulaSampleApplicationTests.xctest */,
-				029CE6301DA60F59005D1521 /* NebulaSampleApplicationUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		02F616E21D61627100876B58 = {
 			isa = PBXGroup;
 			children = (
-				029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */,
+				02990BE71DA613C6005C4E3B /* NebulaSampleApplication.xcodeproj */,
 				02F616EE1D61627100876B58 /* Nebula */,
 				02F616F91D61627100876B58 /* NebulaTests */,
 				02F616ED1D61627100876B58 /* Products */,
@@ -242,8 +242,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 029CE6261DA60F58005D1521 /* Products */;
-					ProjectRef = 029CE6251DA60F58005D1521 /* NebulaSampleApplication.xcodeproj */;
+					ProductGroup = 02990BE81DA613C6005C4E3B /* Products */;
+					ProjectRef = 02990BE71DA613C6005C4E3B /* NebulaSampleApplication.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -255,25 +255,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		029CE62C1DA60F59005D1521 /* NebulaSampleApplication.app */ = {
+		02990BEE1DA613C6005C4E3B /* NebulaSampleApplication.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = NebulaSampleApplication.app;
-			remoteRef = 029CE62B1DA60F59005D1521 /* PBXContainerItemProxy */;
+			remoteRef = 02990BED1DA613C6005C4E3B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		029CE62E1DA60F59005D1521 /* NebulaSampleApplicationTests.xctest */ = {
+		02990BF01DA613C6005C4E3B /* NebulaSampleApplicationTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = NebulaSampleApplicationTests.xctest;
-			remoteRef = 029CE62D1DA60F59005D1521 /* PBXContainerItemProxy */;
+			remoteRef = 02990BEF1DA613C6005C4E3B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		029CE6301DA60F59005D1521 /* NebulaSampleApplicationUITests.xctest */ = {
+		02990BF21DA613C6005C4E3B /* NebulaSampleApplicationUITests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = NebulaSampleApplicationUITests.xctest;
-			remoteRef = 029CE62F1DA60F59005D1521 /* PBXContainerItemProxy */;
+			remoteRef = 02990BF11DA613C6005C4E3B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

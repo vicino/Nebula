@@ -13,7 +13,7 @@ private let ReuseIdentifier = "Cell"
 
 class ViewController: UIViewController {
     
-//    fileprivate var frc: NSFetchedResultsController!
+    fileprivate var frc: NSFetchedResultsController<MyEntity>!
 
     override func viewDidLoad() {
         super.viewDidLoad()
